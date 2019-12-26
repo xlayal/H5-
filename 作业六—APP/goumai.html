@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="css/app.css"/>
+		<!--我的css-->
+		<link rel="stylesheet" href="css/exam.css">
+		<style>
+			.title {
+				margin: 20px 15px 10px;
+				color: #6d6d72;
+				font-size: 15px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">购买</h1>
+		</header>
+		<div class="mui-content">
+			
+			<div class="title">
+				
+			</div>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="images/7.jpg">
+						<div class="mui-media-body">
+							Air Jordan 1
+							<p class='mui-ellipsis'>Air jordan 系列</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="images/8.jpg">
+						<div class="mui-media-body">
+							Air Jordan 5
+							<p class='mui-ellipsis'>Air jordan 系列</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="images/9.jpg">
+						<div class="mui-media-body">
+							Air jordan 11
+							<p class='mui-ellipsis'>Air jordan 系列</p>
+						</div>
+					</a>
+				</li>
+
+			</ul>
+			<div class="title">
+				
+			</div>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-right" src="images/10.jpg">
+						<div class="mui-media-body">
+							Yeezy 350
+							<p class='mui-ellipsis'>Adidas Yeezy 系列</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-right" src="images/11.jpg">
+						<div class="mui-media-body">
+							Yeezy 500
+							<p class='mui-ellipsis'>Adidas Yeezy 系列</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-right" src="images/12.jpg">
+						<div class="mui-media-body">
+							菲董
+							<p class='mui-ellipsis'>Adidas NMD 系列</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="title">
+				
+			</div>
+			<ul class="mui-table-view mui-table-view-chevron">
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="images/13.jpg">
+						<div class="mui-media-body">
+							Air Force 1
+							<p class='mui-ellipsis'>Nike 空军系列</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a class='mui-navigate-right' href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="images/14.jpg">
+						<div class="mui-media-body">
+							SB Dunk
+							<p class='mui-ellipsis'>Nike Dunk系列</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right">
+						<img class="mui-media-object mui-pull-left" src="images/15.jpg">
+						<div class="mui-media-body">
+							Air Max 97
+							<p class='mui-ellipsis'>Nike Air MAx系列</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="title">
+				
+			</div>
+			<div class="mui-card" style="margin-bottom: 35px;">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-right" src="images/16.jpg">
+							<div class="mui-media-body">
+								Vans Authentic
+								<p class='mui-ellipsis'>vans系列</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-right" src="images/17.jpg">
+							<div class="mui-media-body">
+								Vans Old Skool
+								<p class='mui-ellipsis'>vans系列</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-right" src="images/18.jpg">
+							<div class="mui-media-body">
+								Vans RHUDE
+								<p class='mui-ellipsis'>Vans联名系列</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+	<script src="js/mui.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+	</script>
+</html>
